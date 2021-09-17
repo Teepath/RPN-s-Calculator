@@ -1,0 +1,124 @@
+body {
+    background: black;
+
+  }
+
+  *{
+    margin: 10;
+    padding:10;
+    box-sizing: border-box;
+  }
+
+  .text-center{
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .text-center, span > input {
+  width: 90%;
+  padding: 5px;
+  }
+  
+  h1{
+    color: white;
+    font-weight: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #container{
+    background-color: hsl(4,20%,60%);
+    margin: auto;
+    width:400px;
+    max-width: 400px;
+    height: 600px;
+   }
+  #output {
+  width: 100%;
+  min-height: 45px;
+  color: black;
+  font-weight: 600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-right: 15px;
+   font-size: 22px;
+    background: grey;
+    clear: both;
+    border-bottom:none;
+    text-align: right;
+    
+  }
+  #step {
+    width: 100%;
+    min-height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 10px;
+    background: grey;
+    border-top: none;
+    font-size: 18px;
+    text-align: right;
+   }
+  
+  #default{
+    float: left;
+  }
+  
+  a{
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    padding-right: 5px;
+    width: 2.6vw;
+    height: 2.6vw;
+    text-align: center;
+    }
+  
+  .equ{
+    width: 80px;
+    text-align: right;
+    text-align: center;
+  }
+  
+  .calculatorbtn{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  margin: 30px 20px 10px 20px;
+  box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+
+  .calculatorbtn > div{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  }
+
+  .btn{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    align-items: center;
+    background-color: blue;
+  }
