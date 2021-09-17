@@ -122,3 +122,8 @@ body {
     align-items: center;
     background-color: blue;
   }
+
+
+  .btn-danger{
+    background-color: red;
+  }
