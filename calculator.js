@@ -1,14 +1,13 @@
 window.addEventListener( 'DOMContentLoaded',function () {
-    console.log('I am javascrip')
-    //to store the inputs from the user to calculate later
+
     var inputs=[""];
-    //String to store current input
+  
     var totalString;
-    // operators array without the (dot) .
+   
     var operators=["/","*","+","-","%","="];
-    // operator array with .
+
     var operate2 = ['.'];
-    //number inputs for later validation
+
     var nums = [0,1,2,3,4,5,6,7,8,9];
     
     function getValue(input){
